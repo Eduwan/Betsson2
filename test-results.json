@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 12
+      "actualWorkers": 16
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 12
+          "actualWorkers": 16
         },
         "id": "chromium",
         "name": "chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 12
+          "actualWorkers": 16
         },
         "id": "firefox",
         "name": "firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 12
+          "actualWorkers": 16
         },
         "id": "webkit",
         "name": "webkit",
@@ -91,13 +91,13 @@
   },
   "suites": [
     {
-      "title": "PUT_Update_byID.spec.js",
-      "file": "PUT_Update_byID.spec.js",
+      "title": "e2ePets.spec.js",
+      "file": "e2ePets.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Update an existing pet",
+          "title": "CRUD flow for pet: Beast",
           "ok": true,
           "tags": [],
           "tests": [
@@ -112,12 +112,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 586,
+                  "duration": 892,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T07:01:27.563Z",
+                  "startTime": "2026-05-05T10:05:02.363Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -125,13 +125,13 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-1ebbff840316a1e92c9b",
-          "file": "PUT_Update_byID.spec.js",
-          "line": 3,
-          "column": 5
+          "id": "df4b7744b166f2556e7e-e519384fe346d2a3d21d",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
         },
         {
-          "title": "Update pet without ID should fail",
+          "title": "CRUD flow for pet: Sultan",
           "ok": true,
           "tags": [],
           "tests": [
@@ -146,12 +146,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 495,
+                  "duration": 974,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T07:01:27.552Z",
+                  "startTime": "2026-05-05T10:05:02.313Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -159,13 +159,13 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-dba8a933e151b636c3a3",
-          "file": "PUT_Update_byID.spec.js",
-          "line": 46,
-          "column": 5
+          "id": "df4b7744b166f2556e7e-397add9bf17b5d4d69c9",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
         },
         {
-          "title": "Update non-existing pet",
+          "title": "CRUD flow for pet: Rex",
           "ok": true,
           "tags": [],
           "tests": [
@@ -180,12 +180,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 479,
+                  "duration": 931,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T07:01:27.554Z",
+                  "startTime": "2026-05-05T10:05:02.345Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -193,13 +193,13 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-4d44b6b7b1cefe69f057",
-          "file": "PUT_Update_byID.spec.js",
-          "line": 62,
-          "column": 5
+          "id": "df4b7744b166f2556e7e-5f65bc9695d50fd0b7c5",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
         },
         {
-          "title": "Missing Content-Type header",
+          "title": "CRUD flow for pet: Milo",
           "ok": true,
           "tags": [],
           "tests": [
@@ -214,12 +214,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 3,
                   "status": "passed",
-                  "duration": 489,
+                  "duration": 864,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T07:01:27.572Z",
+                  "startTime": "2026-05-05T10:05:02.404Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -227,13 +227,13 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-30570f268a5e0504070f",
-          "file": "PUT_Update_byID.spec.js",
-          "line": 84,
-          "column": 5
+          "id": "df4b7744b166f2556e7e-0367f4c59bc97f055cf9",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
         },
         {
-          "title": "Update an existing pet",
+          "title": "CRUD flow for pet: Tigreton",
           "ok": true,
           "tags": [],
           "tests": [
@@ -241,19 +241,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
                   "workerIndex": 4,
                   "parallelIndex": 4,
                   "status": "passed",
-                  "duration": 605,
+                  "duration": 888,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T07:01:27.516Z",
+                  "startTime": "2026-05-05T10:05:02.404Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -261,13 +261,13 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-4142189fa329206eaf2f",
-          "file": "PUT_Update_byID.spec.js",
-          "line": 3,
-          "column": 5
+          "id": "df4b7744b166f2556e7e-e05a1432db1eaf743f2c",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
         },
         {
-          "title": "Update pet without ID should fail",
+          "title": "CRUD flow for pet: Micky",
           "ok": true,
           "tags": [],
           "tests": [
@@ -275,19 +275,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
+              "projectId": "chromium",
+              "projectName": "chromium",
               "results": [
                 {
                   "workerIndex": 5,
                   "parallelIndex": 5,
                   "status": "passed",
-                  "duration": 510,
+                  "duration": 825,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T07:01:27.571Z",
+                  "startTime": "2026-05-05T10:05:02.444Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -295,13 +295,13 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-44823535e2299db7ae00",
-          "file": "PUT_Update_byID.spec.js",
-          "line": 46,
-          "column": 5
+          "id": "df4b7744b166f2556e7e-42b069577b1cf38ac230",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
         },
         {
-          "title": "Update non-existing pet",
+          "title": "CRUD flow for pet: Beast",
           "ok": true,
           "tags": [],
           "tests": [
@@ -316,12 +316,12 @@
                   "workerIndex": 6,
                   "parallelIndex": 6,
                   "status": "passed",
-                  "duration": 490,
+                  "duration": 828,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T07:01:27.569Z",
+                  "startTime": "2026-05-05T10:05:02.418Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -329,13 +329,13 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-1522aba16c247aa4c853",
-          "file": "PUT_Update_byID.spec.js",
-          "line": 62,
-          "column": 5
+          "id": "df4b7744b166f2556e7e-bbb9bd70c3599ffdfe6c",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
         },
         {
-          "title": "Missing Content-Type header",
+          "title": "CRUD flow for pet: Sultan",
           "ok": true,
           "tags": [],
           "tests": [
@@ -350,12 +350,12 @@
                   "workerIndex": 7,
                   "parallelIndex": 7,
                   "status": "passed",
-                  "duration": 502,
+                  "duration": 897,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T07:01:27.565Z",
+                  "startTime": "2026-05-05T10:05:02.371Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -363,13 +363,13 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-4a4b381bd7433827b0f4",
-          "file": "PUT_Update_byID.spec.js",
-          "line": 84,
-          "column": 5
+          "id": "df4b7744b166f2556e7e-58ec5137029dc5461cad",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
         },
         {
-          "title": "Update an existing pet",
+          "title": "CRUD flow for pet: Rex",
           "ok": true,
           "tags": [],
           "tests": [
@@ -377,19 +377,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
+              "projectId": "firefox",
+              "projectName": "firefox",
               "results": [
                 {
                   "workerIndex": 8,
                   "parallelIndex": 8,
                   "status": "passed",
-                  "duration": 627,
+                  "duration": 874,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T07:01:27.594Z",
+                  "startTime": "2026-05-05T10:05:02.405Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -397,13 +397,13 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-07beab179d0272cd40f3",
-          "file": "PUT_Update_byID.spec.js",
-          "line": 3,
-          "column": 5
+          "id": "df4b7744b166f2556e7e-d4bba017cb7c47841156",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
         },
         {
-          "title": "Update pet without ID should fail",
+          "title": "CRUD flow for pet: Milo",
           "ok": true,
           "tags": [],
           "tests": [
@@ -411,19 +411,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
+              "projectId": "firefox",
+              "projectName": "firefox",
               "results": [
                 {
                   "workerIndex": 9,
                   "parallelIndex": 9,
                   "status": "passed",
-                  "duration": 468,
+                  "duration": 904,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T07:01:27.587Z",
+                  "startTime": "2026-05-05T10:05:02.396Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -431,13 +431,13 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-b728118c33bc7df210dc",
-          "file": "PUT_Update_byID.spec.js",
-          "line": 46,
-          "column": 5
+          "id": "df4b7744b166f2556e7e-5822c8a88d17a823f023",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
         },
         {
-          "title": "Update non-existing pet",
+          "title": "CRUD flow for pet: Tigreton",
           "ok": true,
           "tags": [],
           "tests": [
@@ -445,19 +445,19 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
+              "projectId": "firefox",
+              "projectName": "firefox",
               "results": [
                 {
                   "workerIndex": 10,
                   "parallelIndex": 10,
                   "status": "passed",
-                  "duration": 486,
+                  "duration": 810,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T07:01:27.549Z",
+                  "startTime": "2026-05-05T10:05:02.443Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -465,13 +465,47 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-df8ca6f8fefe2221a5ae",
-          "file": "PUT_Update_byID.spec.js",
-          "line": 62,
-          "column": 5
+          "id": "df4b7744b166f2556e7e-4fac0006791e8d86cecc",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
         },
         {
-          "title": "Missing Content-Type header",
+          "title": "CRUD flow for pet: Micky",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 11,
+                  "status": "passed",
+                  "duration": 816,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-05T10:05:02.436Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "df4b7744b166f2556e7e-fcedee8ae5453b7d689a",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "CRUD flow for pet: Beast",
           "ok": true,
           "tags": [],
           "tests": [
@@ -483,15 +517,15 @@
               "projectName": "webkit",
               "results": [
                 {
-                  "workerIndex": 11,
-                  "parallelIndex": 11,
+                  "workerIndex": 12,
+                  "parallelIndex": 12,
                   "status": "passed",
-                  "duration": 510,
+                  "duration": 859,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T07:01:27.582Z",
+                  "startTime": "2026-05-05T10:05:02.443Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -499,19 +533,189 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-59dd4eb1bdf47776799b",
-          "file": "PUT_Update_byID.spec.js",
-          "line": 84,
-          "column": 5
+          "id": "df4b7744b166f2556e7e-40c9b94fc7af6ad3c54e",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "CRUD flow for pet: Sultan",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 13,
+                  "status": "passed",
+                  "duration": 831,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-05T10:05:02.436Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "df4b7744b166f2556e7e-f18170b0b24ce21461b8",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "CRUD flow for pet: Rex",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 14,
+                  "status": "passed",
+                  "duration": 848,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-05T10:05:02.436Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "df4b7744b166f2556e7e-956070dff547ccfe5038",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "CRUD flow for pet: Milo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 15,
+                  "status": "passed",
+                  "duration": 855,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-05T10:05:02.389Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "df4b7744b166f2556e7e-67070fbae0241e022739",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "CRUD flow for pet: Tigreton",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 6,
+                  "status": "passed",
+                  "duration": 744,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-05T10:05:03.674Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "df4b7744b166f2556e7e-a7b367d845953a1e66de",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "CRUD flow for pet: Micky",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 15,
+                  "status": "passed",
+                  "duration": 334,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-05T10:05:03.265Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "df4b7744b166f2556e7e-f8c165248951b0145f61",
+          "file": "e2ePets.spec.js",
+          "line": 12,
+          "column": 3
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-05-05T07:01:26.967Z",
-    "duration": 1288.569,
-    "expected": 12,
+    "startTime": "2026-05-05T10:05:01.692Z",
+    "duration": 2758.561,
+    "expected": 18,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

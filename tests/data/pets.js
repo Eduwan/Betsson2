@@ -38,5 +38,13 @@ export const pets = [
     photoUrls: ['https://example.com/tiger1.jpg'],
     tags: [{ id: 4, name: 'guard' }],
     status: 'available'
+  },
+  {
+    id: 16,
+    name: 'Micky',
+    category: { id: 3, name: 'Mouse' },
+    photoUrls: ['https://example.com/mouse1.jpg'],
+    tags: [{ id: 2, name: 'tiny' }],
+    status: 'available'
   }
 ];
