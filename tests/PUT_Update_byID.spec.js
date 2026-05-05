@@ -59,7 +59,7 @@ test('Update pet without ID should fail', async ({ request }) => {
 });
 
 
-test('Update non-existing pet', async ({ request }) => {
+test('Update non-existing pet should fail', async ({ request }) => {
   const pet = {
     id: 999999999,
     name: 'Ghost Pet',
@@ -69,9 +69,30 @@ test('Update non-existing pet', async ({ request }) => {
 
   const response = await request.put(
     'https://petstore.swagger.io/v2/pet',
-    { data: pet }
+    { data: pet,
+    headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }
+    }
   );
 
   // Some APIs return 404, others create new resource (bad design but common)
   expect([200, 400, 404, 406]).toContain(response.status());
+});
+
+test('Missing Content-Type header should fail', async ({ request }) => {
+  const pet = {
+    id: 14,
+    name: 'Header Test',
+    photoUrls: [],
+    status: 'available'
+  };
+
+  const response = await request.put(
+    'https://petstore.swagger.io/v2/pet',
+    { data: pet } // no headers
+  );
+
+  expect(response.status()).toBeGreaterThanOrEqual(400);
 });

@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 9
+      "actualWorkers": 12
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 9
+          "actualWorkers": 12
         },
         "id": "chromium",
         "name": "chromium",
@@ -36,7 +36,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 9
+          "actualWorkers": 12
         },
         "id": "firefox",
         "name": "firefox",
@@ -52,7 +52,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 9
+          "actualWorkers": 12
         },
         "id": "webkit",
         "name": "webkit",
@@ -112,12 +112,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 585,
+                  "duration": 586,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T06:49:55.974Z",
+                  "startTime": "2026-05-05T07:01:27.563Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -146,12 +146,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 488,
+                  "duration": 495,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T06:49:55.989Z",
+                  "startTime": "2026-05-05T07:01:27.552Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -165,7 +165,7 @@
           "column": 5
         },
         {
-          "title": "Update non-existent pet",
+          "title": "Update non-existing pet",
           "ok": true,
           "tags": [],
           "tests": [
@@ -180,12 +180,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 480,
+                  "duration": 479,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T06:49:55.983Z",
+                  "startTime": "2026-05-05T07:01:27.554Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -193,9 +193,43 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-4c68968e26f98b740933",
+          "id": "5cff5571c46c1bd642ae-4d44b6b7b1cefe69f057",
           "file": "PUT_Update_byID.spec.js",
           "line": 62,
+          "column": 5
+        },
+        {
+          "title": "Missing Content-Type header",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 489,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-05T07:01:27.572Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5cff5571c46c1bd642ae-30570f268a5e0504070f",
+          "file": "PUT_Update_byID.spec.js",
+          "line": 84,
           "column": 5
         },
         {
@@ -211,15 +245,15 @@
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 3,
-                  "parallelIndex": 3,
+                  "workerIndex": 4,
+                  "parallelIndex": 4,
                   "status": "passed",
-                  "duration": 627,
+                  "duration": 605,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T06:49:56.005Z",
+                  "startTime": "2026-05-05T07:01:27.516Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -245,15 +279,15 @@
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 4,
-                  "parallelIndex": 4,
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
                   "status": "passed",
-                  "duration": 493,
+                  "duration": 510,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T06:49:56.007Z",
+                  "startTime": "2026-05-05T07:01:27.571Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -267,7 +301,7 @@
           "column": 5
         },
         {
-          "title": "Update non-existent pet",
+          "title": "Update non-existing pet",
           "ok": true,
           "tags": [],
           "tests": [
@@ -279,15 +313,15 @@
               "projectName": "firefox",
               "results": [
                 {
-                  "workerIndex": 5,
-                  "parallelIndex": 5,
+                  "workerIndex": 6,
+                  "parallelIndex": 6,
                   "status": "passed",
-                  "duration": 492,
+                  "duration": 490,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T06:49:56.005Z",
+                  "startTime": "2026-05-05T07:01:27.569Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -295,9 +329,43 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-0bdd49ff92d82e4a2be2",
+          "id": "5cff5571c46c1bd642ae-1522aba16c247aa4c853",
           "file": "PUT_Update_byID.spec.js",
           "line": 62,
+          "column": 5
+        },
+        {
+          "title": "Missing Content-Type header",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 7,
+                  "status": "passed",
+                  "duration": 502,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-05T07:01:27.565Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5cff5571c46c1bd642ae-4a4b381bd7433827b0f4",
+          "file": "PUT_Update_byID.spec.js",
+          "line": 84,
           "column": 5
         },
         {
@@ -313,15 +381,15 @@
               "projectName": "webkit",
               "results": [
                 {
-                  "workerIndex": 6,
-                  "parallelIndex": 6,
+                  "workerIndex": 8,
+                  "parallelIndex": 8,
                   "status": "passed",
-                  "duration": 614,
+                  "duration": 627,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T06:49:56.013Z",
+                  "startTime": "2026-05-05T07:01:27.594Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -347,15 +415,15 @@
               "projectName": "webkit",
               "results": [
                 {
-                  "workerIndex": 7,
-                  "parallelIndex": 7,
+                  "workerIndex": 9,
+                  "parallelIndex": 9,
                   "status": "passed",
-                  "duration": 471,
+                  "duration": 468,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T06:49:55.974Z",
+                  "startTime": "2026-05-05T07:01:27.587Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -369,7 +437,7 @@
           "column": 5
         },
         {
-          "title": "Update non-existent pet",
+          "title": "Update non-existing pet",
           "ok": true,
           "tags": [],
           "tests": [
@@ -381,15 +449,15 @@
               "projectName": "webkit",
               "results": [
                 {
-                  "workerIndex": 8,
-                  "parallelIndex": 8,
+                  "workerIndex": 10,
+                  "parallelIndex": 10,
                   "status": "passed",
-                  "duration": 504,
+                  "duration": 486,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-05-05T06:49:56.002Z",
+                  "startTime": "2026-05-05T07:01:27.549Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -397,9 +465,43 @@
               "status": "expected"
             }
           ],
-          "id": "5cff5571c46c1bd642ae-ef1e9d5dce9ba4702556",
+          "id": "5cff5571c46c1bd642ae-df8ca6f8fefe2221a5ae",
           "file": "PUT_Update_byID.spec.js",
           "line": 62,
+          "column": 5
+        },
+        {
+          "title": "Missing Content-Type header",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 11,
+                  "status": "passed",
+                  "duration": 510,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-05-05T07:01:27.582Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5cff5571c46c1bd642ae-59dd4eb1bdf47776799b",
+          "file": "PUT_Update_byID.spec.js",
+          "line": 84,
           "column": 5
         }
       ]
@@ -407,9 +509,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-05-05T06:49:55.480Z",
-    "duration": 1176.25,
-    "expected": 9,
+    "startTime": "2026-05-05T07:01:26.967Z",
+    "duration": 1288.569,
+    "expected": 12,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
