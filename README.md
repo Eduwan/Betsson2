@@ -14,7 +14,7 @@ Provide a clean and scalable test structure for API automation
 The current implementation focuses on updating a pet and verifying the result via API calls.
 
 # Technology used Stack
-Framework: Playwright
-Language: JavaScript / TypeScript
-API Under Test: Swagger Petstore API
-Assertions: Playwright Test Runner (expect)
+- Framework: Playwright
+- Language: JavaScript / TypeScript
+- API Under Test: Swagger Petstore API
+- Assertions: Playwright Test Runner (expect)
