@@ -21,7 +21,7 @@ The purpose of this repository is to:
 ## Technology used
 
 - Framework: Playwright
-- Language: JavaScript / TypeScript
+- Language: JavaScript 
 - API Under Test: Swagger Petstore API
 - Assertions: Playwright Test Runner (expect)
 
