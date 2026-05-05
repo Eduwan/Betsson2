@@ -1,38 +1,21 @@
 import { test, expect } from '@playwright/test';
+import { pets } from './data/pets';
 
-test('Add a new pet', async ({ request }) => {
-  const newPet = {
-    id: 11, // unique ID
-    name: 'Beast',
-    category: {
-      id: 1,
-      name: 'Dogs'
-    },
-    photoUrls: ['https://example.com/dog.jpg'],
-    tags: [
-      {
-        id: 3,
-        name: 'ugly'
-      }
-    ],
-    status: 'available'
-  };
+pets.forEach((pet) => {
+  test(`Add pet: ${pet.name}`, async ({ request }) => {
+    const response = await request.post('https://petstore.swagger.io/v2/pet/', {
+      data: pet,
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }  
+    });
 
-  const response = await request.post('https://petstore.swagger.io/v2/pet/', {
-    data: newPet,
-    headers: {
-      'Content-Type': 'application/json',
-      'Accept': 'application/json'
-    }
+    expect(response.status()).toBe(200);
+
+    const body = await response.json();
+    expect(body.name).toBe(pet.name);
+    expect(body.id).toBe(pet.id);
+    expect(body.status).toBe('available');
   });
-
-  console.log(await response.text());
-
-  // Assertions
-  expect(response.status()).toBe(200);
-
-  const responseBody = await response.json();
-  expect(responseBody.name).toBe(newPet.name);
-  expect(responseBody.id).toBe(newPet.id);
-  expect(responseBody.status).toBe('available');
 });
