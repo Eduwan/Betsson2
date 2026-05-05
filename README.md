@@ -1,4 +1,4 @@
-## Betsson2 – API Testing with Playwright
+# Betsson2 – API Testing with Playwright
 
 This project contains automated API tests built with Playwright to validate endpoints from the Swagger Petstore API. It demonstrates how to structure, execute, and validate REST API requests using modern testing practices.
 
@@ -13,7 +13,7 @@ The purpose of this repository is to:
 
 - The current implementation focuses on updating a pet and verifying the result via API calls.
 
-# Technology used
+## Technology used
 
 - Framework: Playwright
 - Language: JavaScript / TypeScript
@@ -21,7 +21,7 @@ The purpose of this repository is to:
 - Assertions: Playwright Test Runner (expect)
 
 
-# Project Structure
+## Project Structure
 
 Betsson2/
 │
@@ -32,7 +32,7 @@ Betsson2/
 ├── README.md # Project documentation
 └── DETAILS.md # Individual Test Results
 
-# Run Tests
+## Run Tests
 - Running all tests async in one row will cause that the API flow will not follow the ADD - GET - UPDATE hapy path and may cause errors.
 - In this case I recommend to run the tests individially and following an order:
 
@@ -41,8 +41,11 @@ Betsson2/
 3. npx playwright test tests/PUT_Update_byID.spec.js.
 4. npx playwright test tests/e2ePets.spec.js.
 
+## Test Reports
+Generate and view HTML report: npx playwright show-report
 
-# Setup & Installation
+
+## Setup & Installation
 
 . Clone the repository
 
