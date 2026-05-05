@@ -12,6 +12,11 @@ The purpose of this repository is to:
 - Provide a clean and scalable structure for API automation
 
 - The current implementation focuses on updating a pet and verifying the result via API calls.
+- We have created a dataset for adding new pets via API POST request.
+- We have individually tested the API GET request (happy path + 2 negative cases, for invalid ID and non-existing ID). Tested with multiple asserts, not only with response.status.
+- We have individually tested the API PUT request (happy path + 3 negative cases, for no-ID, non-existing ID and missing headers in request). Tested with multiple asserts, not only with response.status.
+- Added the 3 requests POST, GET and PUT into a services layer, and created an e2e test which makes use of the 3 async functions. Only happy path is checked here.
+- Created a workflow that will launch all the 3 individual tests in the correct order and the e2e test after each push to main branch.
 
 ## Technology used
 
