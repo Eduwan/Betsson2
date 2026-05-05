@@ -21,7 +21,7 @@ The purpose of this repository is to:
 - Assertions: Playwright Test Runner (expect)
 
 
-## Project Structure
+# Project Structure
 
 Betsson2/
 │
@@ -32,23 +32,7 @@ Betsson2/
 ├── README.md # Project documentation
 └── DETAILS.md # Individual Test Results
 
-
-## Setup & Installation
-
-1. Clone the repository
-
-```bash
-git clone <your-repo-url>
-cd Betsson2
-
-2. Install dependencies
-npm install
-
-3. Install Playwright (if needed)
-npx playwright install
-
-
-## Run Tests
+# Run Tests
 - Running all tests async in one row will cause that the API flow will not follow the ADD - GET - UPDATE hapy path and may cause errors.
 - In this case I recommend to run the tests individially and following an order:
 
@@ -56,3 +40,21 @@ npx playwright install
 2. npx playwright test tests/GET_pet_byID.spec.js.
 3. npx playwright test tests/PUT_Update_byID.spec.js.
 4. npx playwright test tests/e2ePets.spec.js.
+
+
+# Setup & Installation
+
+. Clone the repository
+
+```bash
+git clone <your-repo-url>
+cd Betsson2
+
+. Install dependencies
+npm install
+
+. Install Playwright (if needed)
+npx playwright install
+
+
+
