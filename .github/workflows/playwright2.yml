@@ -18,11 +18,11 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run POST tests
-      run: npx playwright tests/POST_add_pet.spec.js
+      run: npx playwright test tests/POST_add_pet.spec.js
     - name: Run GET tests
-      run: npx playwright tests/GET_pet_byID.spec.js
+      run: npx playwright test tests/GET_pet_byID.spec.js
     - name: Run PUT tests
-      run: npx playwright tests/PUT_Update_byID.spec.js
+      run: npx playwright test tests/PUT_Update_byID.spec.js
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
