@@ -55,7 +55,7 @@ Generate and view HTML report: npx playwright show-report
 . Clone the repository
 
 ```bash
-https://github.com/Eduwan/Betsson2.git
+git clone https://github.com/Eduwan/Betsson2.git
 
 cd Betsson2
 
