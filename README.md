@@ -38,7 +38,7 @@ Betsson2/
 └── DETAILS.md # Individual Test Results
 
 ## Run Tests
-- Running all tests async in one row will cause that the API flow will not follow the ADD - GET - UPDATE hapy path and may cause errors.
+- Running all tests async in one row will cause that the API flow will not follow the ADD - GET - UPDATE happy path and may cause errors.
 - In this case I recommend to run the tests individially and following an order:
 
 1. npx playwright test tests/POST_add_pet.spec.js
@@ -55,7 +55,8 @@ Generate and view HTML report: npx playwright show-report
 . Clone the repository
 
 ```bash
-git clone <your-repo-url>
+https://github.com/Eduwan/Betsson2.git
+
 cd Betsson2
 
 . Install dependencies
